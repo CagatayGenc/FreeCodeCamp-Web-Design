@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav id="navbar">
+    <header>
+      <a class="nav-link" href="#first">First</a>
+      <a class="nav-link" href="#second">Second</a>
+      <a class="nav-link" href="#third">Third</a>
+      <a class="nav-link" href="#fourth">Fourth</a>
+      <a class="nav-link" href="#fiveth">Fiveth</a>
+    </header>
+  </nav>
+    <main id="main-doc">
+        <section class="main-section" id="first">
+          <header>
+            <p>First</p>
+          </header>
+          <p></p>
+          <p></p>
+          <code></code>
+          <ul>
+            <li></li>
+          </ul>
+        </section>
+        <section class="main-section" id="second">
+          <header>
+            <p>Second</p>
+          </header>
+          <p></p>
+          <p></p>
+          <code></code>
+          <ul>
+            <li></li>
+          </ul>
+        </section>
+        <section class="main-section" id="third">
+          <header>
+            <p>Third</p>
+          </header>
+          <p></p>
+          <p></p>
+          <code></code>
+          <ul>
+            <li></li>
+          </ul>
+        </section>
+        <section class="main-section" id="fourth">
+          <header>
+            <p>Fourth</p>
+          </header>
+          <p></p>
+          <p></p>
+          <code></code>
+          <ul>
+            <li></li>
+          </ul>
+        </section>
+        <section class="main-section" id="fiveth">
+          <header>
+            <p>Fiveth</p>
+          </header>
+          <p></p>
+          <p></p>
+          <code></code>
+          <ul>
+            <li></li>
+          </ul>
+        </section>
+    </main>
+</body>
+</html>

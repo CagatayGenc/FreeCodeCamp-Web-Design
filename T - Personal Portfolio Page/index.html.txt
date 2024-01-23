@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#welcome-section">Welcome</a>
+      <a href="#projects">Projects</a>
+      <a href="#profile">Profile</a>
+    </nav>
+    <section id="welcome-section">
+      <h1>Welcome to my page.</h1>
+    </section>
+    <section id="projects">
+      <h3 class="project-tile">Projects</h3>
+      <a href="https://www.freecodecamp.org">It's my education page.</a>
+    </section>
+    <section id="profile">
+      <a id="profile-link" target="_blank"></a>
+  </body>
+</html>

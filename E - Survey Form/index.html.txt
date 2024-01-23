@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Coding Survey Form</h1>
+    <p id="description">This is a software developer survey.</p>
+    <form id="survey-form">
+      <div>
+        <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+      </div>
+      <div>
+        <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required/></label>
+      </div>
+      <div>
+        <label id="number-label">Age <input id="number" type="number" placeholder="Age" min="13" max="120" required/></label>
+      </div>
+      <div>
+        <p>What is your current role?</p>
+        <select id="dropdown">
+          <option>Select current role</option>
+          <option>Student</option>
+          <option>Worker</option>
+          <option>Workless</option>
+        </select>
+      </div>
+      <div>
+        <p>Which device do you use?</p>
+        <label><input name="job" value="1" type="radio" checked/>Desktop</label>
+        <label><input name="job" value="2" type="radio"/>Laptop</label>
+      </div>
+      <div>
+        <p>Which languages ​​do you know?</p>
+        <label>
+          <input value="1" type="checkbox"/>HTML
+        </label>
+        <label>
+          <input value="2" type="checkbox"/>CSS
+        </label>
+        <label>
+          <input value="3" type="checkbox"/>JS
+        </label>
+        <label>
+          <input value="4" type="checkbox"/>PYTHON
+        </label>
+      </div>
+      <div>
+        <p>Can you tell us about yourself?</p>
+        <textarea></textarea>
+      </div>
+      <div>
+        <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>

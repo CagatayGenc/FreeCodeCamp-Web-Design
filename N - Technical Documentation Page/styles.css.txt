@@ -1,0 +1,5 @@
+@media(max-width:1080){
+  .main-section{
+    font-family: sans-serif;
+  }
+}
